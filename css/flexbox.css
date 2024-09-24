@@ -1,6 +1,45 @@
+
+/* encabezado */
 .cabecera__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: o;
+
+}
+/* barra de busqueda */
+.cabecera__buscar__item{
+    display: none;
+}
+/* rodapie*/
+.rodapie__container{
+    display: flex;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-flow:column wrap;
+}
+/* barra supeior */
+.superior__seccion__container{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+    gap: 10px;
+}
+
+
+
+
+/* reponsividad */
+@media (min-width: 834px){
+
+    .cabecera__buscar__item{
+        display: block;
+    }
+
+    .rodapie__container{
+        justify-content: space-between;
+    }
 
 }
