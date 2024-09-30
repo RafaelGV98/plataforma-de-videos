@@ -35,11 +35,11 @@ display: flex;
 justify-content: space-around;
 height: 100%;
 }
-
+/* se alinio los elementos al centro */
 .menu__lista li{
     align-self: center;
 }
-
+/* se coloco la descripcion del item en columnas */
 .menu__itens{
     display: flex;
     flex-direction: column;
